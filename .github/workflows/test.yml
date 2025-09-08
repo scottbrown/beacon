@@ -9,7 +9,7 @@ jobs:
       - name: checkout the code
         uses: actions/checkout@v5
       - name: install go
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v6
       - name: install task
         uses: arduino/setup-task@v2
         with:
