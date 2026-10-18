@@ -3,7 +3,7 @@ module github.com/scottbrown/beacon
 go 1.24.1
 
 require (
-	github.com/aws/aws-sdk-go-v2 v1.47.1
+	github.com/aws/aws-sdk-go-v2 v1.47.3
 	github.com/aws/aws-sdk-go-v2/config v1.33.7
 	github.com/aws/aws-sdk-go-v2/feature/ec2/imds v1.20.1
 	github.com/aws/aws-sdk-go-v2/service/cloudwatchevents v1.41.0
@@ -22,7 +22,7 @@ require (
 	github.com/aws/aws-sdk-go-v2/service/sso v1.38.2 // indirect
 	github.com/aws/aws-sdk-go-v2/service/ssooidc v1.43.2 // indirect
 	github.com/aws/aws-sdk-go-v2/service/sts v1.51.2 // indirect
-	github.com/aws/smithy-go v1.28.1 // indirect
+	github.com/aws/smithy-go v1.28.5 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
 	github.com/spf13/pflag v1.0.9 // indirect
 )
