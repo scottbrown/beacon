@@ -156,7 +156,7 @@ beacon --pass "Webapp successfully deployed"
 ## Building From Source
 
 Prerequisites:
-- Go 1.24+
+- Go 1.27.4+
 - [Task](https://taskfile.dev) (v3.x)
 
 ```bash
