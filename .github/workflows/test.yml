@@ -10,6 +10,8 @@ jobs:
         uses: actions/checkout@v7
       - name: install go
         uses: actions/setup-go@v7
+        with:
+          go-version-file: go.mod
       - name: install task
         uses: arduino/setup-task@v3
         with:
